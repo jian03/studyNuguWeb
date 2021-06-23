@@ -102,19 +102,13 @@ body { background-color: #ffd95a; font-family: 'BMHANNAAir'; }
 
 .container{
     margin-top: 180px;
-    margin-left: 500px;
+    margin-left: 452px;
     margin-right: 450px;
    
 }
 
 #herehow {
     color: rgb(232, 40, 40);
-    text-decoration: none ;
-    font-weight: bold;
-}
-
-#herevideo {
-    color: rgb(8, 160, 0);
     text-decoration: none ;
     font-weight: bold;
 }
@@ -213,4 +207,9 @@ button {
 .popCloseBtnCmmn:hover {
     background:#666;
 }
-  
+
+
+#timer {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

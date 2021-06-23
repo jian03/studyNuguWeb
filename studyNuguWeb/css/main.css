@@ -115,7 +115,7 @@ body { background-color: #ffd95a; font-family: 'BMHANNAAir'; }
 }
 
 .container{
-    margin-top: 20px;
+    margin-top: 110px;
     margin-left: 450px;
     margin-right: 450px;
    
@@ -129,12 +129,6 @@ body { background-color: #ffd95a; font-family: 'BMHANNAAir'; }
 
 #herehow {
     color: rgb(232, 40, 40);
-    text-decoration: none ;
-    font-weight: bold;
-}
-
-#herevideo {
-    color: rgb(8, 160, 0);
     text-decoration: none ;
     font-weight: bold;
 }
