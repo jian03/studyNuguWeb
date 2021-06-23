@@ -3,11 +3,174 @@
 <head>
     <meta charset="utf-8">
 	<title> SONOGONG </title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/intro.js"></script> 
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
 	<link rel='shortcut icon' type='image/x-icon' href='../img/favicon.png' />
     <link rel="stylesheet" type="text/css" href="../css/intro.css">
 </head>
 <body>
-	
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">ABOUT SONOGONG</div>
+                    <div class="card-body">
+                        <ul class="chat-list">
+                            <li class="in">
+                                <div class="chat-img">
+                                    <img src="..\img\ogong.png" id="ogong">
+                                </div>
+                                <div class="chat-body">
+                                    <div class="chat-message">
+                                        <h5>오공이</h5>
+                                        <p>저를 소개해 드릴게요!</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="in">
+                                <div class="chat-img">
+                                    <img src="..\img\ogong.png" id="ogong">
+                                </div>
+                                <div class="chat-body">
+                                    <div class="chat-message">
+                                        <h5>오공이</h5>
+                                        <p>저는 공부에 꼭 필요한 기능들만 담은 학습 관리용 어플이에요</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="in">
+                                <div class="chat-img">
+                                    <img src="..\img\ogong.png" id="ogong">
+                                </div>
+                                <div id="longchat">
+                                    <div class="chat-message">
+                                        <h5>오공이</h5>
+                                        <p>특히 어플과 연동된 NUGU를 통해 어플을 실행하지 않아도 음성 인식 기능을 통해 미리 저장된 정보들을 체크할 수 있어요</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="in">
+                                <div class="chat-img">
+                                    <img src="..\img\ogong.png" id="ogong">
+                                </div>
+                                <div id="longchat">
+                                    <div class="chat-message">
+                                        <h5>오공이</h5>
+                                        <p>따라서 사용자분들의 학습 능력을 최대로 끌어올릴 수 있기 때문에 학습 관리에 있어서는 최적화된 어플이랍니다!</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="in">
+                                <div class="chat-img">
+                                    <img src="..\img\ogong.png" id="ogong">
+                                </div>
+                                <div class="chat-body">
+                                    <div class="chat-message">
+                                        <h5>오공이</h5>
+                                        <p>간단하게 어플 기능에 대해서 설명해 드릴게요</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="in">
+                                <div class="chat-img">
+                                    <img src="..\img\ogong.png" id="ogong">
+                                </div>
+                                <div id="longchat">
+                                    <div class="chat-message">
+                                        <h5>오공이</h5>
+                                        <p> To-Do, D-Day, Timer 크게 세 가지 기능이 있어요 더 많은 설명이 필요하시다면 아래 버튼을 눌러서 확인해 주세요! </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="in">
+                                <div class="chat-img">
+                                    <img src="..\img\ogong.png" id="ogong">
+                                </div>
+                                <div id="longchat">
+                                    <div class="chat-message">
+                                        <h5>오공이</h5>
+                                        <div class="contentsWrap">
+                                            <div class="btnBox">
+                                              <button class="popOpenBtnCmmn" type="button" data-num="1">To-Do</button>
+                                              <button class="popOpenBtnCmmn" type="button" data-num="2">D-Day</button>
+                                              <button class="popOpenBtnCmmn" type="button" data-num="3">Timer</button>
+                                              <button class="popOpenBtnCmmn" type="button" data-num="4">Setting</button>
+                                            </div>
+                                          </div>
+                                          
+                                            <div id="popUp_1" class="popCmmn">
+                                              <div class="popBg" data-num="1"></div>
+                                              <div class="popInnerBox">
+                                                <div class="popHead">To-Do</div>
+                                                <div class="popBody">
+                                                    <p id="popBodyText"> 투두는 무슨 기능이냐면요 블라블라 </p>
+                                                    <img src="..\img\mirim.png" id="mirim">
+                                                    <p id="popBodyText"> 위는 예시 이미지! 앱 캡처본 넣기 </p>
+                                                </div>
+                                                <div class="popFoot">
+                                                  <button class="popCloseBtnCmmn" type="button" data-num="1">OK</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            
+                                          
+                                            <div id="popUp_2" class="popCmmn">
+                                              <div class="popBg" data-num="2"></div>
+                                              <div class="popInnerBox">
+                                                <div class="popHead">D-Day</div>
+                                                <div class="popBody">
+                                                    <p id="popBodyText"> 디데이는 무슨 기능이냐면요 블라블라 </p>
+                                                    <p id="popBodyText"> 디데이는 무슨 기능이냐면요 블라블라 </p>
+                                                    <p id="popBodyText"> 디데이는 무슨 기능이냐면요 블라블라 </p>
+                                                    <p id="popBodyText"> 디데이는 무슨 기능이냐면요 블라블라 </p>
+                                                    <p id="popBodyText"> 디데이는 무슨 기능이냐면요 블라블라 </p>
+                                                </div>
+                                                <div class="popFoot">
+                                                  <button class="popCloseBtnCmmn" type="button" data-num="2">OK</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            
+                                          
+                                            <div id="popUp_3" class="popCmmn">
+                                              <div class="popBg" data-num="3"></div>
+                                              <div class="popInnerBox">
+                                                <div class="popHead">Timer</div>
+                                                <div class="popBody">
+                                                    <p id="popBodyText"> 타이머는 무슨 기능이냐면요 블라블라 </p>    
+                                                </div>
+                                                <div class="popFoot">
+                                                  <button class="popCloseBtnCmmn" type="button" data-num="3">OK</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div id="popUp_4" class="popCmmn">
+                                                <div class="popBg" data-num="1"></div>
+                                                <div class="popInnerBox">
+                                                  <div class="popHead">Setting</div>
+                                                  <div class="popBody">
+                                                    <p id="popBodyText"> 설정에는 또 어떤 기능이 있냐면요 블라블라 </p>
+                                                  </div>
+                                                  <div class="popFoot">
+                                                    <button class="popCloseBtnCmmn" type="button" data-num="4">OK</button>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="in">
+                                <div class="chat-img">
+                                    <img src="..\img\ogong.png" id="ogong">
+                                </div>
+                                <div id="longchat">
+                                    <div class="chat-message">
+                                        <h5>오공이</h5>
+                                        <p>앱 사용 방법이 궁금하시다면 <a id="herehow" href="../html/how.html"> 여기</a>를 영상을 시청하시려면 <a id="herevideo" href="../html/video.html"> 여기</a>를
+                                        메인 화면으로 가시려면 <a id="heremain" href="../html/main.html"> 여기</a>를 눌러 주세요!</p>
+                                    </div>
+                                </div>
+                            </li>
 </body>
 </html>

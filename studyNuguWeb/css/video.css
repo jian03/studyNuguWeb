@@ -1,2 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=East+Sea+Dokdo);
-body { background-color: #ffd95a; }
+@font-face {
+    font-family: 'BMHANNAAir';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/BMHANNAAir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body { background-color: #ffd95a; font-family: 'BMHANNAAir'; }
